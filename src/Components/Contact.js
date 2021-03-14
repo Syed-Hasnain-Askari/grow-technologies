@@ -1,8 +1,10 @@
 import React from 'react';
 import './Contact.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 export default function Contact() {
     return (
         <section id="contact" className="contact" id="contact">
+        <ScrollAnimation animateIn="fadeIn">
         <div className="container">
           <div className="heading text-center wow fadeInUp" style={{visibility: 'visible', animationName: 'fadeInUp'}}>
             <h2>
@@ -16,17 +18,17 @@ export default function Contact() {
             <div className="row">
               <div className="col-lg-8 left">
                 <h3>Send Message</h3>
-                <form>
+                <form onSubmit>
                   <div className="row">
                     <div className="col-sm-6">
-                      <input type="text" className="form-control" placeholder="Name" />
+                      <input type="text" className="form-control" placeholder="Name" required />
                     </div>
                     <div className="col-sm-6">
-                      <input type="email" className="form-control" placeholder="Email" />
+                      <input type="email" className="form-control" placeholder="Email" required/>
                     </div>
                   </div>
                   <div className="form-group">
-                    <textarea className="form-control" rows={5} id="comment" placeholder="Message" defaultValue={""} />
+                    <textarea className="form-control" rows={5} id="comment" placeholder="Message" defaultValue={""} required/>
                   </div>
                   <button className="btn btn-block" type="submit">Send Now!</button>
                 </form>
@@ -65,6 +67,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        </ScrollAnimation>
       </section>
     )
 }

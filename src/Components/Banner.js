@@ -1,10 +1,10 @@
 import React from 'react'
 import './Banner.css'
 function Banner( {caption, details, cName,image,id} ) {
-    return (
+    return(
         <div id={id} className={`banner ${cName}`}>
             <div className="anime">
-                <img className="image-fluid anime__pic" src={image} alt="..." />
+                <img className="anime__pic" src={image} alt="..." />
             </div>
             
             <div className="slider__container">
