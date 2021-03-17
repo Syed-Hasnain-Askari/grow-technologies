@@ -5,6 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 // components
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
+import Services from './Components/Services'
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
@@ -39,8 +40,8 @@ function App() {
         id="print"
       />
       </ScrollAnimation>
-          <Contact/>
-        
+      <Services/>
+      <Contact/>
       <Footer/>
     </div>
   );

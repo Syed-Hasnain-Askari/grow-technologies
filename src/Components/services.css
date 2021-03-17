@@ -1,0 +1,31 @@
+.services__wrapper{
+    width: 100%;
+}
+.services{
+    font-size: calc((21 *(1em - 13px) - -2em - 1px));
+    color: black;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: 700;
+    margin-bottom: 61px;
+}
+.services-paragraph{
+    color: #999;
+    font-size: 20px;
+    line-height: 1.8;
+    letter-spacing: 0;
+    font-family: "Open Sans",sans-serif;
+}
+.explore-services{
+    font-size: calc((-.99 *(1em - 13px) - -2em - 12px));
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+    padding-bottom: 12px;
+    color: #003a78;
+}
+.border-line{
+    position: relative;
+    bottom: 20px;
+    border-bottom: 5px solid yellow;  
+}

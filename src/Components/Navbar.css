@@ -20,6 +20,7 @@
     color: #fff;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .click__menu {
