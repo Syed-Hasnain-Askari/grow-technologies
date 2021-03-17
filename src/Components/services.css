@@ -2,7 +2,7 @@
     width: 100%;
 }
 .services{
-    font-size: calc((21 *(1em - 13px) - -2em - 1px));
+    font-size: 80px;
     color: black;
     line-height: 1.2;
     letter-spacing: 0;
@@ -28,4 +28,18 @@
     position: relative;
     bottom: 20px;
     border-bottom: 5px solid yellow;  
+}
+@media (max-width:800px){
+    .services__wrapper{
+        height: 800px;
+        margin-top: 100px;
+    }
+    .services{
+        padding-top: 100px;
+    }
+    .services {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -100px;
+    }
 }

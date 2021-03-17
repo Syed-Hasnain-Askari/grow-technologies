@@ -14,9 +14,9 @@
     margin-bottom: 15px;
 }
 .contact .heading h2 span {
-    color: #7035cf;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif
 }
 .contact .heading p {
     font-size: 14px;
@@ -89,4 +89,9 @@
     font-size: 30px;
     color: #ffffff;
     margin-right: 20px;
+}
+@media (max-width:800px){
+    .contact{
+        margin-top: 90px;
+    }
 }

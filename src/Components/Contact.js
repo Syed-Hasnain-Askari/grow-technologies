@@ -3,7 +3,7 @@ import './Contact.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 export default function Contact() {
     return (
-        <section id="contact" className="contact">
+        <section id="contact" className="contact mt-5">
         <ScrollAnimation animateIn="fadeIn">
         <div className="container">
           <div className="heading text-center wow fadeInUp" style={{visibility: 'visible', animationName: 'fadeInUp'}}>

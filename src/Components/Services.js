@@ -11,7 +11,7 @@ export default function Services() {
                 <div className="col-md-6">
                     <img src={animation} alt="" className="img-fluid"/>
                 </div>
-                <div className="col-md-6">
+                <div className="sevices_section col-md-6">
                    <div className="row d-flex justify-content-center mx-auto">
                         <div className="col-md-4 mt-5">
                          <h1 className="services text-center">Services.</h1>
