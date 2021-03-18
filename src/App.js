@@ -41,7 +41,6 @@ function App() {
         id="print"
       />
       </ScrollAnimation>
-      <Services/>
       <Testimonial/>
       <Contact/>
       <Footer/>
