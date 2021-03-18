@@ -40,7 +40,9 @@ function App() {
         id="education"
       />
       </ScrollAnimation>
-      <Testimonal/>
+      <ScrollAnimation animateIn="fadeIn">
+        <Testimonal/>
+      </ScrollAnimation>
       <Contact/>
       <Footer/>
     </div>
