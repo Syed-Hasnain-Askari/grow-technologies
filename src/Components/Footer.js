@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="copyright">
-                <p>© <span>2018</span> <a href="#" className="transition">KnightRider7660</a> All rights reserved.</p>
+                <p>© <span>2018</span> <a href="https://askariportfolio.web.app/" className="transition">Askariportfolio</a> All rights reserved.</p>
               </div>
             </div>
           </div>
