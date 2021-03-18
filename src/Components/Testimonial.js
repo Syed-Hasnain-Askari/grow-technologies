@@ -1,5 +1,6 @@
 import React from 'react'
-import './Testimonial.css'
+import './Testimonal.css';
+import testimonial1 from '../images/testimonial3.jpg'
 
 
 // avatar images
@@ -7,7 +8,7 @@ import avatar1 from '../images/avatar.jpg'
 
 function Testimonial() {
     return (
-        <div className="testimonials">
+        <div id="testimonial" className="testimonials">
             <div className="inner">
                 <h1>Testimonials</h1>
                 <div className="border"></div>
@@ -15,7 +16,7 @@ function Testimonial() {
                 <div className="row">
                     <div className="col">
                         <div className="inside__col">
-                            <img src={avatar1} className="avatar__images" />
+                            <img src={testimonial1} className="avatar__images" />
                             <div className="name">Full Name</div>
                             <p>lorem ipsum volvo comisto  dadada to be hoinest and bja sjv djn j rerweers</p>
                         </div>
@@ -23,7 +24,7 @@ function Testimonial() {
 
                     <div className="col">
                         <div className="inside__col">
-                            <img src={avatar1} className="avatar__images"/>
+                            <img src={testimonial1} className="avatar__images"/>
                             <div className="name">Full Name</div>
                             <p>lorem ipsum volvo comisto  dadada to be hoinest and bja sjv djn j rerweers</p>
                         </div>
@@ -31,7 +32,7 @@ function Testimonial() {
 
                     <div className="col">
                         <div className="inside__col">
-                            <img src={avatar1} className="avatar__images"/>
+                            <img src={testimonial1} className="avatar__images"/>
                             <div className="name">Full Name</div>
                             <p>lorem ipsum volvo comisto  dadada to be hoinest and bja sjv djn j rerweers</p>
                         </div>

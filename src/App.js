@@ -5,8 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 // components
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
-import Services from './Components/Services';
-import Testimonial from './Components/Testimonial'
+import Testimonal from './Components/Testimonial'
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
@@ -38,10 +37,10 @@ function App() {
         Academic training programs"
         image={pic2}
         cName="reverse__row"
-        id="print"
+        id="education"
       />
       </ScrollAnimation>
-      <Testimonial/>
+      <Testimonal/>
       <Contact/>
       <Footer/>
     </div>

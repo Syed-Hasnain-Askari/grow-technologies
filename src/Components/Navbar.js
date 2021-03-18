@@ -32,8 +32,8 @@ function Navbar() {
             <div className="main__menu" style={{ display: open ? "flex" : "block", top: open ? "0" : "-100%"}}>
                 <span className="nav__items"><Link activeClass="active" to="home" spy={true} smooth={true}>About Us</Link></span>
                 <span className="nav__items"><Link activeClass="active" to="IT" spy={true} smooth={true}>Clients</Link></span>
-                <span className="nav__items"><Link activeClass="active" to="services" spy={true} smooth={true}>Services</Link></span>
-                <span className="nav__items"><Link activeClass="active" to="print" spy={true} smooth={true}>Porfolio</Link></span>
+                <span className="nav__items"><Link activeClass="active" to="education" spy={true} smooth={true}>Services</Link></span>
+                <span className="nav__items"><Link activeClass="active" to="testimonial" spy={true} smooth={true}>Testimonial</Link></span>
                 <span className="nav__items"><Link activeClass="active" to="contact" spy={true} smooth={true}>Contact Us</Link></span>
                 <div  className="close__menu" onClick={()=> setOpen(false)}><CloseIcon/></div>
             </div>
